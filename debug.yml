@@ -1,5 +1,5 @@
 - name: debug message
-  hosts: all
+  hosts: localhost
   tasks:
     - name: debug demo
       ansible.builtin.debug:
