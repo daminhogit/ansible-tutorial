@@ -1,6 +1,10 @@
 - name: debug message
   hosts: localhost
+  vars:
+    fruit: "apple"
   tasks:
     - name: debug demo
       ansible.builtin.debug:
         msg: Example text
+        var: fruit
+
