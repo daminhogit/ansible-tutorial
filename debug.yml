@@ -5,6 +5,5 @@
   tasks:
     - name: debug demo
       ansible.builtin.debug:
-        msg: Example text
-        var: fruit
+        msg: "our fruit is {{ fruit }}"
 
