@@ -3,3 +3,4 @@
   tasks:
     - name: debug demo
       ansible.builtin.debug:
+        msg: Example text
